@@ -15,6 +15,7 @@ steps:
     name: "pre-build"
     command: |
       echo "build is starting"
+      yum install docker-engine
   - type: Command
     name: "build"
     command: |
